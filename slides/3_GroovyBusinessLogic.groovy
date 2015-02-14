@@ -1,0 +1,13 @@
+
+class GroovyBusinessLogic {
+    
+    public def filterAndSort(List<Donut> donuts, int priceThreshold, int numDonuts) {
+        def results = donuts.findAll{ d -> d.getPrice() >= priceThreshold }
+                            .sort{ d -> d.getCalories() }
+                            .reverse()
+                            .take(numDonuts)
+                            .collect{ d -> d.getName() }
+        
+        return results;        
+    }    
+}
