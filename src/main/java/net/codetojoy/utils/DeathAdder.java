@@ -6,7 +6,9 @@ import java.util.function.BinaryOperator;
 
 public class DeathAdder implements BinaryOperator<Integer> {
     public Integer apply(Integer a, Integer b) {
+        // gahhh!! Bitten by legacy 
         try { Thread.sleep(150); } catch (Exception ex) {}
+
         return a + b;
     }
 }
