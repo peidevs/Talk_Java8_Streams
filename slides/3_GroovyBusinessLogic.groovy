@@ -1,7 +1,7 @@
 
 class GroovyBusinessLogic {
     
-    public def filterAndSort(List<Donut> donuts, int priceThreshold, int numDonuts) {
+    public def uglyReport(List<Donut> donuts, int priceThreshold, int numDonuts) {
         def results = donuts.findAll{ d -> d.getPrice() >= priceThreshold }
                             .sort{ d -> d.getCalories() }
                             .reverse()
