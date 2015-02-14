@@ -8,7 +8,10 @@ class OldBusinessLogic implements BusinessLogic {
     // don't do this at home (or at work!)
     // ugly straw-man to serve as talking points 
     //
-    // Notes: imperative, mixes "what" with "how", external iteration, legacy Collections.sort() method
+    // Notes: 
+    //    imperative (i.e. mixes "what" with "how")
+    //    external iteration (i.e. optimization is not free)
+    //    legacy Collections.sort() method
     
     public List<String> uglyReport(List<Donut> donuts, int priceThreshold, int numDonuts) {
         List<String> results = new ArrayList<>();
