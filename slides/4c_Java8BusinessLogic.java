@@ -3,6 +3,8 @@ package net.codetojoy;
 import java.util.function.Function;
 
 // expansion of method reference to old-style anonymous class
+//
+// Compare "map" in each method
 
 public class Java8BusinessLogic implements BusinessLogic {
 

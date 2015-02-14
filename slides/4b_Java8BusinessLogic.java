@@ -3,6 +3,8 @@ package net.codetojoy;
 import java.util.function.Predicate;
 
 // expanding lambdas into the old-style anon classes
+//
+// Compare "filter" in each method
 
 public class Java8BusinessLogic implements BusinessLogic {
 

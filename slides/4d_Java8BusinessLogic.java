@@ -4,6 +4,9 @@ import java.util.stream.Collectors;
 import java.util.Comparator;
 
 // example of default methods (e.g. comparing) in Comparator interface
+//
+// Comparator is a legacy interface, but can now have new methods such as comparing(). This is in 
+// stark contrast to awkward designs such as Collections.sort()
 
 public class Java8BusinessLogic implements BusinessLogic {
 

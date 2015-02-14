@@ -18,5 +18,12 @@ public void testLazyA_Tight() {
                      .map(Donut::getName)                         // print "map : name"
                      .limit(numDonuts);
 
+    // Q: if filter() and map() were to print, what would be the output ?
+    //
+    // A: Nothing. Here, we are using intermediate operators which are lazy (vs eager). So this stream is a
+    //    configured "Rube Goldberg machine" that is ready to compute, but has not yet computed anything at all.
+    //
+    // [1] - http://en.wikipedia.org/wiki/Rube_Goldberg_machine
+    
     assertNotNull(s);
 }

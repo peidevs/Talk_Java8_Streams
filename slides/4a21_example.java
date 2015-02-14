@@ -20,5 +20,7 @@ public void testLazyB() {
              .limit(numDonuts)
              .collect( toList() );
 
+     // Q: if filter() and map() were to print, what would be the output ?
+
     assertEquals(3, results.size());
 }
