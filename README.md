@@ -1,3 +1,5 @@
 # Talk_Java8_Streams
 
-- PDF and code for a talk 12-FEB-2015 (by Michael Easter @codetojoy)
+- PDF and code for "Space, Time, & Donuts", a talk on streams in Java 8
+- Feb 12, 2015, Charlottetown Legion, PEI 
+- by Michael Easter @codetojoy
